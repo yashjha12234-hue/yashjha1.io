@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EliteCart India | Premium Dropshipping Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #f5f7fa;
+            color: #333;
+        }
+
+        /* HEADER */
+        header {
+            background: #111;
+            padding: 15px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #00c896;
+        }
+
+        /* HERO */
+        .hero {
+            height: 100vh;
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1556742031-c6961e8560b0');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            padding: 0 20px;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            background: #00c896;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: 0.3s;
+            font-weight: 600;
+        }
+
+        .btn:hover {
+            background: #00a77a;
+        }
+
+        /* PRODUCTS */
+        .products {
+            padding: 100px 8%;
+            text-align: center;
+        }
+
+        .products h2 {
+            font-size: 36px;
+            margin-bottom: 50px;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            margin: 15px 0;
+        }
+
+        .card button {
+            background: #111;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .card button:hover {
+            background: #00c896;
+        }
+
+        /* ABOUT */
+        .about {
+            padding: 100px 8%;
+            background: #111;
+            color: #fff;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        /* CONTACT */
+        .contact {
+            padding: 80px 8%;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* WHATSAPP BUTTON */
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25D366;
+            color: #fff;
+            padding: 15px 18px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        /* CALL BUTTON */
+        .call {
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            background: #007bff;
+            color: #fff;
+            padding: 15px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        @media(max-width:768px) {
+            .hero h2 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>YASH DROPSHIPPING SERVICES.</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Our Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div>
+            <h2>Premium Products Delivered Across India</h2>
+            <p>Fast Shipping | Cash on Delivery | 24/7 Support</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="card">
+                <img src="c:\Users\Administrator\Desktop\New folder\Screenshot_20260224-184209.png" alt=" No Result">
+                <h3>WATERPROOF MOBILE PHONE HOLDER</h3>
+                <p>₹330</p>
+                <button onclick="orderNow('WATERPROOF MOBILE PHONE HOLDER ')">Order Now</button>
+            </div>
+            <div class="card">
+                <img src="c:\Users\Administrator\Desktop\New folder\.trashed-1774356954-Screenshot_20260222-140700.png"
+                    alt=" No Result">
+                <h3>SOLAR INTERACTION WALL LAMP</h3>
+                <p>₹200</p>
+                <button onclick="orderNow('solar interaction wall lamp')">Order Now</button>
+            </div>
+            <div class="card">
+                <img src="c:\Users\Administrator\Desktop\New folder\Screenshot_20260223-135351.png" alt="No Result">
+                <h3>Mic with bluetooth speaker</h3>
+                <p>₹300</p>
+
+                <button onclick="orderNow('Mic with bluetooth speaker')">Order Now</button>
+                <p>And many more products.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>We are a premium dropshipping store delivering high-quality products all over India with fast shipping and
+            customer satisfaction guarantee.</p>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Call or WhatsApp us for quick orders and support.</p>
+    </section>
+
+    <footer>
+        © 2026 Yash Dropshipping Services India | All Rights Reserved
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/YOUR_PHONE_NUMBER?text=Hello%20I%20want%20to%20order" class="whatsapp"
+        target="_blank">WhatsApp Now</a>
+
+    <!-- Call Button -->
+    <a href="tel:+919462788711" class="call">Call Now</a>
+
+    <script>
+        function orderNow(product) {
+            let phone = "+919462788711";
+            let message = "Hello, I want to order " + product;
+            let url = "https://wa.me/" + phone + "?text=" + encodeURIComponent(message);
+            window.open(url, "_blank");
+        }
+    </script>
+
+</body>
+
+</html>
